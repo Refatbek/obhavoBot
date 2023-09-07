@@ -24,7 +24,6 @@ def obhavo(city):
            f"🌡<b> Temperatura : {'{:.2f}'.format(harorat)} 🌡</b>\n\n"\
            f"🌖<b> Quyosh chiqish vaqti :{kun_chiqishi}  🌅</b>\n\n" \
            f"🌒<b> Quyosh botish vaqti :{kun_botishi}  🎆</b>\n\n"
-    print(result)
     return result
 
 #russian
@@ -55,7 +54,6 @@ def погода(city):
            f"🌡<b> Temperatura : {'{:.2f}'.format(температура)} 🌡</b>\n\n"\
            f"🌖<b> время солнца :{kun_chiqishi}  🌅</b>\n\n" \
            f"🌒<b> время заката :{kun_botishi}  🎆</b>\n\n"
-    print(result_ru)
     return result_ru
 
 
@@ -88,6 +86,5 @@ def weather(city):
            f"🌡 Temperatura : {'{:.2f}'.format(Temperatura)} 🌡</b>\n\n"\
            f"🌖 Sunting time :{Sunting}  🌅\n\n" \
            f"🌒  Sunset time:{Sunset}  🎆\n\n"
-    print(result_en)
     return result_en
 
